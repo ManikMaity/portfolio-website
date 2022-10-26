@@ -245,6 +245,16 @@ h3{
     }
 
     }
+  @media screen and (max-width: 520px) {
+
+    .my-profile-pic{
+      width: 35%;}
+
+      #title .container{
+        padding: 70% 0;
+      }
+    
+  }
 
 
 
