@@ -1,0 +1,265 @@
+
+body{
+    
+}
+
+
+#title{
+    padding: 2% 10% 5%;
+    background-image: url(https://www.customerparadigm.com/wp-content/uploads/2019/11/code-featured-splash-background-blur.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+    
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    font-weight: 600 ;
+}
+.navbar-brand span{
+    color: #749F82;
+}
+.nav-link{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.my-profile-pic{
+    width: 15%;
+    border: 5px solid #749F82;
+}
+#title .container{
+
+    margin: 10% 0;
+}
+h1{
+    color: #A8E890;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-top: 2%;
+}
+#title p{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+
+}
+
+
+
+
+
+#about{
+    padding: 7% 10%;
+    background-color: #425F57;
+}
+h2{
+    color: #A8E890;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.des{
+    text-align: right;
+}
+.about-img{
+    width: 100%;
+    border: 5px solid #749F82;
+}
+#about h4{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+#about p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.progress-sec{
+    text-align: left;
+}
+.progress span{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+ .btn-lg{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+
+
+
+#project{
+    padding: 4% 10% 7%;
+}
+#project h1{
+    color: #425F57;
+}
+#project p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+#project img{
+    border: 5px solid #425F57 ;
+    border-radius: 10%;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 100% 0;
+    
+}
+
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+
+  #service{
+    padding: 4% 10% 7%;
+    background-color: #749F82;
+  }
+  #service h1{
+    color: #fff;
+  }
+  #service p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #425F57;
+  }
+
+  .service-icon{
+    font-size: 7rem;
+    color: #fff;
+    position: relative;
+    top: 9%;
+  }
+  .service-icon:hover{
+    color: #CFFF8D;
+  }
+  #service h2{
+    font-size: 1.6rem;
+  }
+
+
+  #hire{
+    text-align: center;
+    padding: 7% 10%;
+    background-image: url(https://i.postimg.cc/vZqMrNxd/hie-cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+  #hire h1{
+    color: #fff;
+
+  }
+  #hire span{
+    color: #A8E890;
+
+  }
+
+  #footer{
+    padding: 7% 10%;
+    background-color: #425F57;
+    text-align: center;
+
+  }
+  
+  #footer a{
+    text-decoration: none;
+  }
+  .footer-icon{
+    color: #749F82;
+    font-size: 1.5rem;
+    margin: 0 15px;
+  }
+  .footer-icon:hover{
+    color: #CFFF8D;
+  }
+  #footer p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #749F82;
+  }
+  
+
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    .des{
+        text-align: center;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main - 
+font-family: 'Roboto Mono', monospace; 200;400;600;700
+secondary -
+font-family: 'Titillium Web', sans-serif;300 400 600 700 */
