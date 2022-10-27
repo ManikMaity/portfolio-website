@@ -58,6 +58,10 @@ h1{
     padding: 7% 10%;
     background-color: #425F57;
 }
+#about .container-fluid{
+  margin: 0;
+  padding: 0;
+}
 h2{
     color: #A8E890;
     font-family: 'Roboto Mono', monospace;
