@@ -45,7 +45,7 @@
     </div>
     </nav>
     <div class="container text-center">
-        <img src="images\my-profile-pic.jpg" alt="my-profile-pic" class="my-profile-pic rounded-pill">
+        <img src="images\my-profile-pic.jpg" data-bs-toggle="tooltip" title="It's me Manik!" alt="my-profile-pic" class="my-profile-pic rounded-pill">
         <h1>Manik Maity</h1>
         <p>I Am A Future Full Stack Web Developer.</p>
     </div>
@@ -127,6 +127,13 @@
         </div>
 
     </section>
+        <script>
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
 
 <!-- project section -->
 <section id="project">
