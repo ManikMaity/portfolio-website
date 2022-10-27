@@ -82,10 +82,20 @@ h3{
     font-weight: 400;
 
 }
+
+#about .about-btn{
+  color: #CFFF8D;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
 #about p{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
+    color: #fff;
 }
 .progress-sec{
     text-align: left;
