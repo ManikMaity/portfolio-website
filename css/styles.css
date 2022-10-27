@@ -265,6 +265,10 @@ h3{
       #title .container{
         padding: 70% 0;
       }
+        #title,#about,#project,#service,#hire{
+        padding-left: 2%;
+        padding-right: 2%;
+      }
     
   }
 
