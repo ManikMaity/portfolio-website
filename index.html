@@ -58,8 +58,37 @@
             <div class="des col-lg-4 col-md-12 p-3">
                 <h2>Manik Maity</h2>
                 <h3 class="mb-4">FULL STACK DEVELOPER</h3>
-                <h4>&lt;about-me&gt;</h4>
-                <p class="text-white">I am Manik Maity. I am from Kolkata, India. I'm 20 years old and studying B.com (Honours) at the moment. I love to do web development and learn about new technologies. I'm a self-taught web developer. And I want to make web development my future career.</p>
+                <!-- collapse sec -->
+
+                <div class="mb-2" id="according">
+                    <div class="card bg-success text-center">
+                        <div class="card-header">
+                            <a href="#about-me" data-bs-toggle="collapse" class="btn about-btn">&lt;about-me&gt;</a>
+                        </div>
+                        <div id="about-me" data-bs-parent="#according" class="collapse show">
+                            <div class="card-body">
+                                <p>My name is Manik Maity. I am 20 years old college student. I from Kolkata, India. Although I am not a CS student but I really like web-development and I want to make something that can help people.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card bg-success text-center">
+                        <div class="card-header">
+                            <a href="#education" data-bs-toggle="collapse" class="btn about-btn">&lt;Education&gt;</a>
+                        </div>
+                        <div id="education" data-bs-parent="#according" class="collapse">
+                            <div class="card-body">
+                                <p>Currently I am doing my B.com (Honours) from Bhawanipur Education Society College. I am self-taught web-develop.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- collapse sec end -->
                 <a href="https://drive.google.com/uc?export=download&id=12IwAiPTXHITBzbwzW36XYBP8p2ah2IFp" class="btn btn-success btn-lg"><i class="ri-file-download-fill"></i> Download Resume</a>
             </div>    
             <div class="des drs-img col-lg-4 col-md-6 p-3">
